@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Fundamentals", "1.Fundamentals", "{309937E1-CE5A-4554-8559-E39D5E5D1D2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2AF2E0A4-937A-4D34-96CF-3748B96115B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{02BB6DF0-E62C-4680-938A-7DE82E346660}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibrary.Tests.Unit", "1.Fundamentals\test\CalculatorLibrary.Tests.Unit\CalculatorLibrary.Tests.Unit.csproj", "{E8C623AA-660C-4ED1-B01B-7338EFF99EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorProject", "1.Fundamentals\src\CalculatorProject\CalculatorProject.csproj", "{7042A0BA-D57C-4459-AEE2-8E5ED738866C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8C623AA-660C-4ED1-B01B-7338EFF99EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C623AA-660C-4ED1-B01B-7338EFF99EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C623AA-660C-4ED1-B01B-7338EFF99EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C623AA-660C-4ED1-B01B-7338EFF99EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7042A0BA-D57C-4459-AEE2-8E5ED738866C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7042A0BA-D57C-4459-AEE2-8E5ED738866C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7042A0BA-D57C-4459-AEE2-8E5ED738866C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7042A0BA-D57C-4459-AEE2-8E5ED738866C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AF2E0A4-937A-4D34-96CF-3748B96115B0} = {309937E1-CE5A-4554-8559-E39D5E5D1D2C}
+		{02BB6DF0-E62C-4680-938A-7DE82E346660} = {309937E1-CE5A-4554-8559-E39D5E5D1D2C}
+		{E8C623AA-660C-4ED1-B01B-7338EFF99EFD} = {02BB6DF0-E62C-4680-938A-7DE82E346660}
+		{7042A0BA-D57C-4459-AEE2-8E5ED738866C} = {2AF2E0A4-937A-4D34-96CF-3748B96115B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA2269C8-3844-4495-BF1A-78D4D16089CB}
+	EndGlobalSection
+EndGlobal
