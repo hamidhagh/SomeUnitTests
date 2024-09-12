@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{171E4369-731
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CD09FC83-FCEB-489D-A034-A9B90E1BEDF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{72D42E10-E0F5-474A-8454-3D9E5CB714BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{72D42E10-E0F5-474A-8454-3D9E5CB714BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary.Tests.Unit", "CalculatorLibrary.Tests.Unit\CalculatorLibrary.Tests.Unit.csproj", "{39A785FF-A4C9-441A-ACAF-A7E92D83018A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibrary.Tests.Unit", "CalculatorLibrary.Tests.Unit\CalculatorLibrary.Tests.Unit.csproj", "{39A785FF-A4C9-441A-ACAF-A7E92D83018A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Techniques", "2.Techniques", "{D0FABB75-E05F-4A9B-8A18-A019860B3225}"
 EndProject
@@ -19,19 +19,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6462F1E3-C8B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1D846B3B-124E-481F-85D3-F42B18168D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingTechniques", "TestingTechniques\TestingTechniques.csproj", "{2D7366FE-5B78-437B-BBB3-FDF69206B258}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingTechniques", "TestingTechniques\TestingTechniques.csproj", "{2D7366FE-5B78-437B-BBB3-FDF69206B258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingTechniques.Tests.Unit", "TestingTechniques.Tests.Unit\TestingTechniques.Tests.Unit.csproj", "{8B1564C3-B4F7-4137-BA4C-0DDED3EBC44F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingTechniques.Tests.Unit", "TestingTechniques.Tests.Unit\TestingTechniques.Tests.Unit.csproj", "{8B1564C3-B4F7-4137-BA4C-0DDED3EBC44F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Concepts", "3.Concepts", "{F586ED3F-EBA1-40BC-9AE5-855AC8CF3100}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8506F8E-8D85-45B2-80CD-8BEB78B9A92B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingDependencies.Api", "3.Concepts\src\UnderstandingDependencies.Api\UnderstandingDependencies.Api.csproj", "{C6AEF61C-1F47-4B8F-B036-748D607AB39A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderstandingDependencies.Api", "3.Concepts\src\UnderstandingDependencies.Api\UnderstandingDependencies.Api.csproj", "{C6AEF61C-1F47-4B8F-B036-748D607AB39A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{014FA41C-A88F-4E3D-9C08-F083A25B28C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingDependencies.Api.Tests.Unit", "3.Concepts\test\UnderstandingDependencies.Api.Tests.Unit\UnderstandingDependencies.Api.Tests.Unit.csproj", "{3D245075-54ED-4A9F-A42F-2D578253992F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderstandingDependencies.Api.Tests.Unit", "3.Concepts\test\UnderstandingDependencies.Api.Tests.Unit\UnderstandingDependencies.Api.Tests.Unit.csproj", "{3D245075-54ED-4A9F-A42F-2D578253992F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.RealProject", "4.RealProject", "{718D13BB-BB3A-4E90-BFEA-A59B66B23DB6}"
 EndProject
@@ -39,9 +39,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{099E2596-F46
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4BF97C52-6D43-4C42-8582-043646C7145A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api", "4.RealProject\src\Users.Api\Users.Api.csproj", "{4225E25A-9B8D-473F-A1A7-CD3E848524BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Api", "4.RealProject\src\Users.Api\Users.Api.csproj", "{4225E25A-9B8D-473F-A1A7-CD3E848524BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api.Tests.Unit", "4.RealProject\test\Users.Api.Tests.Unit\Users.Api.Tests.Unit.csproj", "{04AEF631-8C88-44CC-B40F-6485876D6E8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Api.Tests.Unit", "4.RealProject\test\Users.Api.Tests.Unit\Users.Api.Tests.Unit.csproj", "{04AEF631-8C88-44CC-B40F-6485876D6E8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.AdvancedTechniques", "5.AdvancedTechniques", "{5CF61D81-0CC5-4A40-8E41-3185532E616F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B38299C9-8AFB-470B-B7D0-0038607CA98A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8E321283-56B5-4B25-808E-F27C70603996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTechniques", "5.AdvancedTechniques\src\AdvancedTechniques\AdvancedTechniques.csproj", "{51059F6A-DB29-4B99-9489-56179393F555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTechniques.Tests.Unit", "5.AdvancedTechniques\test\AdvancedTechniques.Tests.Unit\AdvancedTechniques.Tests.Unit.csproj", "{5239BAF4-9C19-4324-8073-BB1F5EA221DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +91,14 @@ Global
 		{04AEF631-8C88-44CC-B40F-6485876D6E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04AEF631-8C88-44CC-B40F-6485876D6E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04AEF631-8C88-44CC-B40F-6485876D6E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51059F6A-DB29-4B99-9489-56179393F555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51059F6A-DB29-4B99-9489-56179393F555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51059F6A-DB29-4B99-9489-56179393F555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51059F6A-DB29-4B99-9489-56179393F555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5239BAF4-9C19-4324-8073-BB1F5EA221DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5239BAF4-9C19-4324-8073-BB1F5EA221DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5239BAF4-9C19-4324-8073-BB1F5EA221DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5239BAF4-9C19-4324-8073-BB1F5EA221DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +120,10 @@ Global
 		{4BF97C52-6D43-4C42-8582-043646C7145A} = {718D13BB-BB3A-4E90-BFEA-A59B66B23DB6}
 		{4225E25A-9B8D-473F-A1A7-CD3E848524BC} = {099E2596-F46C-41A9-B7EB-D6094A06D473}
 		{04AEF631-8C88-44CC-B40F-6485876D6E8D} = {4BF97C52-6D43-4C42-8582-043646C7145A}
+		{B38299C9-8AFB-470B-B7D0-0038607CA98A} = {5CF61D81-0CC5-4A40-8E41-3185532E616F}
+		{8E321283-56B5-4B25-808E-F27C70603996} = {5CF61D81-0CC5-4A40-8E41-3185532E616F}
+		{51059F6A-DB29-4B99-9489-56179393F555} = {B38299C9-8AFB-470B-B7D0-0038607CA98A}
+		{5239BAF4-9C19-4324-8073-BB1F5EA221DB} = {8E321283-56B5-4B25-808E-F27C70603996}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA2269C8-3844-4495-BF1A-78D4D16089CB}
