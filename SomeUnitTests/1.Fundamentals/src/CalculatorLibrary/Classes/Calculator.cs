@@ -1,4 +1,4 @@
-﻿namespace CalculatorLibrary;
+﻿namespace CalculatorLibrary.Classes;
 
 public class Calculator
 {

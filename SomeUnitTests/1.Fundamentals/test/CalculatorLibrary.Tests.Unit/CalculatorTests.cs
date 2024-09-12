@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using CalculatorLibrary.Classes;
+using Xunit;
 
 namespace CalculatorLibrary.Tests.Unit;
 
